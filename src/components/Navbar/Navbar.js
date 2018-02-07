@@ -1,7 +1,7 @@
 import React from "react";
 import "./Navbar.css";
 
-const Navbar = () =>
+const Navbar = props =>
 
     <nav className="navbar navbar-dark bg-gunmetal">
         <div className="container">
@@ -16,7 +16,7 @@ const Navbar = () =>
         </li>
 
         <li class="nav-item title  d-inline-block d-inline col-md-3 ">
-            Score: 0 | Top Score: 0
+            Score: {props.score} | Top Score: {props.topscore}
         </li>
 
         </ul>

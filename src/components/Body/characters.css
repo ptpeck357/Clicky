@@ -6,7 +6,8 @@
     position: relative;
     width: 200px;
     float: left;
-    margin-left: 5%
+    margin-left: 5%;
+    align-items: center
 }
 
 .cards > .img-container {
@@ -14,11 +15,7 @@
 
 }
 
-button:hover{
-    width: 225px;
-}
-
-.cards > button > .img-container >  img {
+.cards > .img-container >  img {
     width: 100%;
 
 }
