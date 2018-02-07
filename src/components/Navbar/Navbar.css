@@ -1,0 +1,12 @@
+.navbar {
+	background-color: #023436;
+	position: fixed;
+	width: 100%;
+	z-index: 5;
+}
+
+.title {
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+}

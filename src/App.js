@@ -1,18 +1,37 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import Navbar from "./components/Navbar/Navbar";
+import Jumbotron from "./components/Jumbotron/Jumbotron";
+// import footer from "./components/Footer/footer.js"
+import characters from "./Characters.json";
+import  CharacterCard from "./components/Body/characters.js";
 
 class App extends Component {
+
+  state = {
+    characters
+  };
+
+  // addFriend = id => {
+  //   const characters = this.state.characters.filter(characters => characters.id !== id);
+  //   // Set this.state.characters equal to the new friends array
+  //   this.setState({ characters});
+  // };
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
+      <div>
+      <Navbar />
+      <Jumbotron />
+        {this.state.characters.map(characters => (
+          <div className="container">
+          <CharacterCard
+            id={characters.id}
+            name={characters.name}
+            image={characters.image}
+          />
+          </div>
+        ))}
+      <footer />
       </div>
     );
   }

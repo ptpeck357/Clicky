@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Bugs Bunny",
+    "image": "https://vignette.wikia.nocookie.net/tmnt/images/5/5e/Clip-art-bugs-bunny-397350.jpg/revision/latest?cb=20140522225926"
+  },
+  {
+    "id": 2,
+    "name": "Wile E. Coyote",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41MA2u%2BaaIL._SX463_.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Road Runner",
+    "image": "http://1.bp.blogspot.com/-0QvEAG3NsGQ/Vqqe7bf1TPI/AAAAAAAAW8w/CrNZiq0uC0Y/s1600/CartoonRR.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Tweety",
+    "image": "https://scontent-frt3-2.cdninstagram.com/t51.2885-15/e35/21107852_321993554939850_5801303229690019840_n.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Elmer Fudd",
+    "image": "https://pbs.twimg.com/profile_images/2323637635/20_elmer_fudd2-copy_400x400.png"
+  },
+  {
+    "id": 6,
+    "name": "Daffy Duck",
+    "image": "https://3.bp.blogspot.com/-2i4oRH63cfE/VxKzSh1VP7I/AAAAAAAAAjg/Urhr1Ma40q89kJ439lpOBypER9bks-szACLcB/s1600/Daffy%2BDuck.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Sylvester",
+    "image": "http://2.bp.blogspot.com/-pMdcxkWeTuM/T926D8R1RAI/AAAAAAAAAVI/CXffyMi7DYg/s1600/sylvester-303.png"
+  },
+  {
+    "id": 8,
+    "name": "Tasmanian Devil",
+    "image": "http://twoja-naklejka.pl/image/cache/data/Tuning%20druk/141-500x500.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Foghorn Leghorn",
+    "image": "https://idigitalcitizen.files.wordpress.com/2010/12/foghorn-leghorn.jpg?w=500"
+  },
+  {
+    "id": 10,
+    "name": "Marvin the Martian",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51phSnQsr5L._US500_.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Porky Pig",
+    "image": "https://rottenink.files.wordpress.com/2015/11/porky-pig-2.jpeg"
+  },
+  {
+    "id": 12,
+    "name": "Yosemite Sam",
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61Mof9Bvo-L._SX554_.jpg"
+  }
+]
