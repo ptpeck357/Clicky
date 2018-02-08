@@ -5,17 +5,19 @@ const Navbar = props =>
 
     <nav className="navbar navbar-dark bg-gunmetal">
         <div className="container">
-        <ul class="navbar-nav d-inline">
+        <ul className="navbar-nav d-inline">
 
-        <a className="navbar-brand nav-item d-inline-block title col-md-4" href="/">
-            Clicky
-        </a>
-
-        <li class="nav-item title d-inline-block d-inline col-md-4">
-            Click an image to begin!
+        <li className="nav-item title d-inline-block d-inline col-md-4">
+            <a className="navbar-brand nav-item d-inline-block title" href="/">
+                Clicky
+            </a>
         </li>
 
-        <li class="nav-item title  d-inline-block d-inline col-md-3 ">
+        <li className="nav-item title d-inline-block d-inline col-md-4">
+            Eh, what's up, Doc
+        </li>
+
+        <li className="nav-item title  d-inline-block d-inline col-md-3">
             Score: {props.score} | Top Score: {props.topscore}
         </li>
 
