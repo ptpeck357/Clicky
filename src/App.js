@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import Navbar from "./components/Navbar/Navbar";
-import Jumbotron from "./components/Jumbotron/Jumbotron";
-// import footer from "./components/Footer/footer.js"
+import Footer from "./components/Footer/footer.js"
 import characters from "./Characters.json";
-import  CharacterCard from "./components/Body/characters.js";
+import CharacterCard from "./components/Body/characters.js";
+import Wrapper from "./components/Wrapper/index.js"
 import "./app.css"
 
 class App extends Component {
@@ -12,8 +12,17 @@ class App extends Component {
     score: 0,
     topscore: 0,
     clicks: [],
+    quote: "",
     characters
   };
+
+  componentDidMount = () => {
+    this.quote("Looney Tunes")
+  }
+
+  quote = quote => {
+    this.setState({quote: quote})
+  }
 
   shuffleArray = array => {
     for (var i = array.length - 1; i > 0; i--) {
@@ -26,41 +35,44 @@ class App extends Component {
   }
 
   checkClick = id => {
-    console.log(id);
     if(this.state.clicks.includes(id)){
-      console.log("you loose")
       this.setState({ score: 0, clicks: []});
+
     } else {
+        if (this.state.score + 1 > this.state.topscore) {
+          this.setState({
+              topscore: this.state.score + 1
+          })
+        }
       this.state.clicks.push(id)
       this.setState({ score: this.state.score + 1});
-      console.log("you win")
     }
   };
 
-  handleOnchange = id => {
-    this.checkClick(id.target.id)
+  handleOnchange = (id, phrase) => {
+    this.checkClick(id)
     this.shuffleArray(this.state.characters)
+    this.setState({quote: phrase})
   };
 
 
   render() {
     return (
       <div>
-        <Navbar score = {this.state.score} topscore={this.state.topscore}/>
-        <Jumbotron/>
-        <div className="container">
-          {this.state.characters.map(characters => (
-             <button id={characters.id} onClick={this.handleOnchange}>
-              <CharacterCard
-                id={characters.id}
-                name={characters.name}
-                image={characters.image}
-               />
-               </button>
-          ))}
-           </div>
-        <footer />
-      </div>
+        <Navbar quote = {this.state.quote} score = {this.state.score} topscore={this.state.topscore}/>
+          <Wrapper>
+            {this.state.characters.map(characters => (
+                <CharacterCard
+                  handleOnchange={this.handleOnchange}
+                  id={characters.id}
+                  name={characters.name}
+                  image={characters.image}
+                  phrase={characters.catchphrase}
+                />
+            ))}
+          </Wrapper>
+        <Footer />
+    </div>
     );
   }
 }

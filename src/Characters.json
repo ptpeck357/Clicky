@@ -2,61 +2,73 @@
   {
     "id": 1,
     "name": "Bugs Bunny",
-    "image": "https://vignette.wikia.nocookie.net/tmnt/images/5/5e/Clip-art-bugs-bunny-397350.jpg/revision/latest?cb=20140522225926"
+    "image": "https://vignette.wikia.nocookie.net/tmnt/images/5/5e/Clip-art-bugs-bunny-397350.jpg/revision/latest?cb=20140522225926",
+    "catchphrase": "Eh, what's up, Doc?"
   },
   {
     "id": 2,
     "name": "Wile E. Coyote",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/41MA2u%2BaaIL._SX463_.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/I/41MA2u%2BaaIL._SX463_.jpg",
+    "catchphrase": "YEeooooowwwwwwwww!"
   },
   {
     "id": 3,
     "name": "Road Runner",
-    "image": "http://1.bp.blogspot.com/-0QvEAG3NsGQ/Vqqe7bf1TPI/AAAAAAAAW8w/CrNZiq0uC0Y/s1600/CartoonRR.jpg"
+    "image": "http://1.bp.blogspot.com/-0QvEAG3NsGQ/Vqqe7bf1TPI/AAAAAAAAW8w/CrNZiq0uC0Y/s1600/CartoonRR.jpg",
+    "catchphrase": "Beep-Beep!"
   },
   {
     "id": 4,
     "name": "Tweety",
-    "image": "https://scontent-frt3-2.cdninstagram.com/t51.2885-15/e35/21107852_321993554939850_5801303229690019840_n.jpg"
+    "image": "https://scontent-frt3-2.cdninstagram.com/t51.2885-15/e35/21107852_321993554939850_5801303229690019840_n.jpg",
+    "catchphrase": "Bad 'ol puddy-tat!"
   },
   {
     "id": 5,
     "name": "Elmer Fudd",
-    "image": "https://pbs.twimg.com/profile_images/2323637635/20_elmer_fudd2-copy_400x400.png"
+    "image": "https://pbs.twimg.com/profile_images/2323637635/20_elmer_fudd2-copy_400x400.png",
+    "catchphrase": "Why you wascawwy wabbit!"
   },
   {
     "id": 6,
     "name": "Daffy Duck",
-    "image": "https://3.bp.blogspot.com/-2i4oRH63cfE/VxKzSh1VP7I/AAAAAAAAAjg/Urhr1Ma40q89kJ439lpOBypER9bks-szACLcB/s1600/Daffy%2BDuck.jpg"
+    "image": "https://3.bp.blogspot.com/-2i4oRH63cfE/VxKzSh1VP7I/AAAAAAAAAjg/Urhr1Ma40q89kJ439lpOBypER9bks-szACLcB/s1600/Daffy%2BDuck.jpg",
+    "catchphrase": "You're dethpicable."
   },
   {
     "id": 7,
     "name": "Sylvester",
-    "image": "http://2.bp.blogspot.com/-pMdcxkWeTuM/T926D8R1RAI/AAAAAAAAAVI/CXffyMi7DYg/s1600/sylvester-303.png"
+    "image": "https://i.pinimg.com/736x/6f/be/c0/6fbec034703aaf764993ed9b71e818d9--classic-cartoon-characters-classic-cartoons.jpg",
+    "catchphrase": "Thuffering thuccotash!"
   },
   {
     "id": 8,
     "name": "Tasmanian Devil",
-    "image": "http://twoja-naklejka.pl/image/cache/data/Tuning%20druk/141-500x500.jpg"
+    "image": "http://twoja-naklejka.pl/image/cache/data/Tuning%20druk/141-500x500.jpg",
+    "catchphrase": "TAZ HUNGRY!"
   },
   {
     "id": 9,
     "name": "Foghorn Leghorn",
-    "image": "https://idigitalcitizen.files.wordpress.com/2010/12/foghorn-leghorn.jpg?w=500"
+    "image": "https://idigitalcitizen.files.wordpress.com/2010/12/foghorn-leghorn.jpg?w=500",
+    "catchphrase": "I say, I say..."
   },
   {
     "id": 10,
     "name": "Marvin the Martian",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/51phSnQsr5L._US500_.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/I/51phSnQsr5L._US500_.jpg",
+    "catchphrase": "Isn't that lovely, hm?"
   },
   {
     "id": 11,
     "name": "Porky Pig",
-    "image": "https://rottenink.files.wordpress.com/2015/11/porky-pig-2.jpeg"
+    "image": "https://rottenink.files.wordpress.com/2015/11/porky-pig-2.jpeg",
+    "catchphrase": "Th-th-th-that's all, folks!"
   },
   {
     "id": 12,
     "name": "Yosemite Sam",
-    "image": "https://images-na.ssl-images-amazon.com/images/I/61Mof9Bvo-L._SX554_.jpg"
+    "image": "https://images-na.ssl-images-amazon.com/images/I/61Mof9Bvo-L._SX554_.jpg",
+    "catchphrase": "Goodbye rabbit!"
   }
 ]

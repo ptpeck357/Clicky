@@ -1,29 +1,34 @@
 import React from "react";
 import "./Navbar.css";
 
-const Navbar = props =>
+const Navbar = props => (
 
-    <nav className="navbar navbar-dark bg-gunmetal">
-        <div className="container">
-        <ul className="navbar-nav d-inline">
+    <div className="main">
+        <nav className="navbar navbar-dark bg-gunmetal">
+            <div className="container">
 
-        <li className="nav-item title d-inline-block d-inline col-md-4">
-            <a className="navbar-brand nav-item d-inline-block title" href="/">
-                Clicky
-            </a>
-        </li>
+                <div className="nav-item title d-inline-block col-md-4">
+                    Clicky
+                </div>
 
-        <li className="nav-item title d-inline-block d-inline col-md-4">
-            Eh, what's up, Doc
-        </li>
+                <div className="nav-brand title d-inline-block  col-md-4">
+                    {props.quote}
+                </div>
 
-        <li className="nav-item title  d-inline-block d-inline col-md-3">
-            Score: {props.score} | Top Score: {props.topscore}
-        </li>
+                <div className="nav-brand title d-inline-block col-md-4">
+                    Score: {props.score} | Top Score: {props.topscore}
+                </div>
 
-        </ul>
+            </div>
+
+        </nav>
+
+        <div className="jumbotron">
+            <h1 className="text-center">Click on your favorite Looney Tunes character to begin!</h1>
+            <h1 className="text-center">Click on an image to earn points, but don't click anymore than once!</h1>
         </div>
 
-    </nav>;
+    </div>
+)
 
 export default Navbar;

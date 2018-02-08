@@ -1,5 +1,5 @@
 .navbar {
-	background-color: #023436;
+	background-color: #2c3539;
 	position: fixed;
 	width: 100%;
 	z-index: 5;
@@ -10,3 +10,8 @@
 	font-size: 25px;
 	text-decoration: none;
 }
+
+.text-center {
+	font-size: 25px;
+}
+
