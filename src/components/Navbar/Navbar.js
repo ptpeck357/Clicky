@@ -3,32 +3,25 @@ import "./Navbar.css";
 
 const Navbar = props => (
 
-    <div className="main">
-        <nav className="navbar navbar-dark bg-gunmetal">
-            <div className="container">
+<div >
+    <nav className="navbar navbar-dark bg-gunmetal fixed-top">
 
-                <div className="nav-item title d-inline-block col-md-4">
+            <ul>
+                <li className="title clicky">
                     Clicky
-                </div>
+                </li>
 
-                <div className="nav-brand title d-inline-block  col-md-4">
+                <li className="title quote">
                     {props.quote}
-                </div>
+                </li>
 
-                <div className="nav-brand title d-inline-block col-md-4">
+                <li className="title score">
                     Score: {props.score} | Top Score: {props.topscore}
-                </div>
+                </li>
+            </ul>
+    </nav>
+</div>
 
-            </div>
-
-        </nav>
-
-        <div className="jumbotron">
-            <h1 className="text-center">Click on your favorite Looney Tunes character to begin!</h1>
-            <h1 className="text-center">Click on an image to earn points, but don't click anymore than once!</h1>
-        </div>
-
-    </div>
-)
+);
 
 export default Navbar;

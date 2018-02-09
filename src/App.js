@@ -1,5 +1,6 @@
 import React, { Component } from "react";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar/index.js";
+import Jumbotron from "./components/Jumbotron/Jumbotron.js"
 import Footer from "./components/Footer/footer.js"
 import characters from "./Characters.json";
 import CharacterCard from "./components/Body/characters.js";
@@ -60,7 +61,8 @@ class App extends Component {
     return (
       <div>
         <Navbar quote = {this.state.quote} score = {this.state.score} topscore={this.state.topscore}/>
-          <Wrapper>
+        <Jumbotron/>
+          <Wrapper >
             {this.state.characters.map(characters => (
                 <CharacterCard
                   handleOnchange={this.handleOnchange}
