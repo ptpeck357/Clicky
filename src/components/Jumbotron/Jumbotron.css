@@ -1,6 +1,6 @@
 .jumbotron {
     border-radius: 2px;
-    background-image: url("https://vignette.wikia.nocookie.net/edp/images/2/2e/LooneyTunesWallpaper1024.jpg/revision/latest?cb=20150923164545");
+    background-image: url("https://i.ytimg.com/vi/EcIpupZ8v6g/maxresdefault.jpg");
     background-size: 50%;
     background-repeat: repeat-x;
     margin-top: 60px;
@@ -12,7 +12,7 @@
 h1{
     text-align: center;
     position: absolute;
-    top: 65px;
+    top: 70px;
     left: 21%;
     font-size: 25px;
     width: 60%;
