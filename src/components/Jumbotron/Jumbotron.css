@@ -6,12 +6,14 @@
     margin-top: 60px;
     height: 400px;
     color: whitesmoke;
+    text-align: center;
 }
 
 h1{
     text-align: center;
     position: absolute;
     top: 65px;
-    font-size: 30px;
-    word-wrap: inherit
+    left: 21%;
+    font-size: 25px;
+    width: 60%;
 }
