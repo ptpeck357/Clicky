@@ -2,16 +2,16 @@
 [![Image not avaiable](https://media.giphy.com/media/3o6nV5YXpVm1ZFTGbS/giphy.gif)](https://sheltered-scrubland-55185.herokuapp.com/)
 
 ## Description
-A game to test a person's memory skill. This game is built in React which the application's UI is broken down into components, manage component state, and respond to user events.
+A game to test a person's memory skill. This game is built in React which the application's UI is broken down into components, component state, and responding to user events.
 
 ## Functionality
-Goal of the game is to click on an image once and only once! After clicking on any picture of a Looney Tune character, the pictures will randomly shuffle around.
+Goal of the game is to click on an image once and only once! After clicking on any picture of a Looney Tune character, the pictures will randomly shuffle around and display  a catch phrase from that character!
 
-A picture that is clicked, the user will get a score.
+Clicking a picture that hasn't being clicked already earns the user a point.
 
  If the user clicks on an image that has already being clicked, the user looses and the score will reset back to zero.
 
- The topscore of the user's will be track next to the current score.
+ User's topscore is kept tracked.
 
  Goal of the game is to beat the their own personal score!
 
