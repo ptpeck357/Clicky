@@ -64,6 +64,7 @@ class App extends Component {
         <Jumbotron/>
           <Wrapper >
             {this.state.characters.map(characters => (
+              <span key={characters.id}>
                 <CharacterCard
                   handleOnchange={this.handleOnchange}
                   id={characters.id}
@@ -71,6 +72,7 @@ class App extends Component {
                   image={characters.image}
                   phrase={characters.catchphrase}
                 />
+                </span>
             ))}
           </Wrapper>
         <Footer />
